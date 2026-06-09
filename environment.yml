@@ -1,0 +1,23 @@
+name: iwbbio-driver
+channels:
+
+* conda-forge
+* defaults
+  dependencies:
+* python=3.10
+* numpy
+* pandas
+* scipy
+* scikit-learn
+* matplotlib
+* seaborn
+* pyyaml
+* tqdm
+* joblib
+* pip
+* pip:
+
+  * shap
+  * xgboost
+  * lightgbm
+  * torch
