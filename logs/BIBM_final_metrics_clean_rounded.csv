@@ -1,0 +1,23 @@
+task,model,feature_set,AUROC,AUPRC,F1
+LUAD driver prediction,RandomForest,signature,0.7642,0.5014,0.586
+LUAD driver prediction,LightGBM,signature,0.7645,0.5015,0.586
+LUAD driver prediction,XGBoost,signature,0.7645,0.5015,0.586
+LUAD driver prediction,RandomForest,functional,0.9878,0.9632,0.8859
+LUAD driver prediction,LightGBM,functional,0.985,0.9609,0.9018
+LUAD driver prediction,XGBoost,functional,0.9842,0.9586,0.901
+LUAD driver prediction,RandomForest,all,0.9864,0.9592,0.8811
+LUAD driver prediction,LightGBM,all,0.9838,0.9581,0.8983
+LUAD driver prediction,XGBoost,all,0.9833,0.9561,0.8959
+LUAD driver prediction,MLP,functional+signature,0.97,0.9232,0.8434
+LUAD driver prediction,ResMLP,functional+signature,0.9779,0.942,0.8615
+SeqQC confidence prediction,RandomForest,QC,0.6092,0.6054,0.5094
+SeqQC confidence prediction,LightGBM,QC,0.6262,0.6177,0.5003
+SeqQC confidence prediction,XGBoost,QC,0.6289,0.6181,0.4951
+LUAD driver prediction,MVF,functional,0.9725,0.9294,0.8145
+LUAD driver prediction,MVF,signature,0.7626,0.5008,0.5881
+LUAD driver prediction,MVF,functional+signature,0.9685,0.9225,0.8037
+SeqQC confidence prediction,QC-MLP,QC,0.6348,0.6239,0.3359
+COAD/GBM cross-cancer validation,RandomForest,train GBM test COAD,0.5822,0.1878,0.1274
+COAD/GBM cross-cancer validation,ResMLP,train GBM test COAD,0.5941,0.2661,0.2939
+COAD/GBM cross-cancer validation,RandomForest,train COAD test GBM,0.6344,0.2485,0.2454
+COAD/GBM cross-cancer validation,ResMLP,train COAD test GBM,0.6824,0.377,0.3441

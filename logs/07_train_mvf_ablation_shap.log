@@ -1,0 +1,128 @@
+Using device: cuda
+
+Loading LUAD dataset...
+
+================================================================================
+Training MVF | LUAD driver prediction | functional
+Input shape: (200432, 143)
+View dimensions: [143]
+pos_weight: 5.424335956573486
+================================================================================
+Epoch 01 | Loss=0.71336 | AUROC=0.91293 | AUPRC=0.81141 | F1=0.68715
+Epoch 02 | Loss=0.58976 | AUROC=0.92463 | AUPRC=0.83350 | F1=0.71730
+Epoch 03 | Loss=0.55349 | AUROC=0.92789 | AUPRC=0.84189 | F1=0.73716
+Epoch 04 | Loss=0.53191 | AUROC=0.94046 | AUPRC=0.86454 | F1=0.75586
+Epoch 05 | Loss=0.51026 | AUROC=0.94551 | AUPRC=0.87378 | F1=0.68300
+Epoch 06 | Loss=0.49715 | AUROC=0.94015 | AUPRC=0.86562 | F1=0.72446
+Epoch 07 | Loss=0.48314 | AUROC=0.94974 | AUPRC=0.88118 | F1=0.73994
+Epoch 08 | Loss=0.47015 | AUROC=0.95283 | AUPRC=0.88845 | F1=0.77350
+Epoch 09 | Loss=0.46342 | AUROC=0.95327 | AUPRC=0.88896 | F1=0.80738
+Epoch 10 | Loss=0.45468 | AUROC=0.95228 | AUPRC=0.88551 | F1=0.81218
+Epoch 11 | Loss=0.44730 | AUROC=0.95883 | AUPRC=0.89959 | F1=0.75069
+Epoch 12 | Loss=0.43992 | AUROC=0.95631 | AUPRC=0.89258 | F1=0.77102
+Epoch 13 | Loss=0.43225 | AUROC=0.95938 | AUPRC=0.90172 | F1=0.81538
+Epoch 14 | Loss=0.42281 | AUROC=0.95645 | AUPRC=0.89494 | F1=0.78028
+Epoch 15 | Loss=0.41782 | AUROC=0.96122 | AUPRC=0.90385 | F1=0.80979
+Epoch 16 | Loss=0.40884 | AUROC=0.96094 | AUPRC=0.90266 | F1=0.75900
+Epoch 17 | Loss=0.40218 | AUROC=0.96062 | AUPRC=0.90300 | F1=0.80592
+Epoch 18 | Loss=0.40287 | AUROC=0.96154 | AUPRC=0.90501 | F1=0.80185
+Epoch 19 | Loss=0.39283 | AUROC=0.96582 | AUPRC=0.91511 | F1=0.77679
+Epoch 20 | Loss=0.38973 | AUROC=0.96492 | AUPRC=0.91182 | F1=0.79967
+Epoch 21 | Loss=0.38214 | AUROC=0.96689 | AUPRC=0.91620 | F1=0.79628
+Epoch 22 | Loss=0.38319 | AUROC=0.96740 | AUPRC=0.91607 | F1=0.80969
+Epoch 23 | Loss=0.37714 | AUROC=0.96863 | AUPRC=0.92069 | F1=0.83434
+Epoch 24 | Loss=0.37040 | AUROC=0.96823 | AUPRC=0.91954 | F1=0.82735
+Epoch 25 | Loss=0.37028 | AUROC=0.96770 | AUPRC=0.91772 | F1=0.79483
+Epoch 26 | Loss=0.36582 | AUROC=0.96918 | AUPRC=0.92187 | F1=0.81461
+Epoch 27 | Loss=0.35694 | AUROC=0.96742 | AUPRC=0.91827 | F1=0.81658
+Epoch 28 | Loss=0.35426 | AUROC=0.96969 | AUPRC=0.92319 | F1=0.81403
+Epoch 29 | Loss=0.35319 | AUROC=0.96856 | AUPRC=0.92105 | F1=0.83157
+Epoch 30 | Loss=0.34883 | AUROC=0.97246 | AUPRC=0.92942 | F1=0.81446
+FINAL: {'task': 'LUAD driver prediction', 'model': 'MVF', 'feature_set': 'functional', 'AUROC': 0.9724637400163482, 'AUPRC': 0.9294182245502022, 'F1': 0.8144642460992384}
+
+================================================================================
+Training MVF | LUAD driver prediction | signature
+Input shape: (200432, 86)
+View dimensions: [86]
+pos_weight: 5.424335956573486
+================================================================================
+Epoch 01 | Loss=0.92431 | AUROC=0.75957 | AUPRC=0.49989 | F1=0.59244
+Epoch 02 | Loss=0.90048 | AUROC=0.76100 | AUPRC=0.47877 | F1=0.59439
+Epoch 03 | Loss=0.89696 | AUROC=0.76201 | AUPRC=0.49764 | F1=0.58987
+Epoch 04 | Loss=0.89516 | AUROC=0.76262 | AUPRC=0.50076 | F1=0.58814
+Epoch 05 | Loss=0.89394 | AUROC=0.76407 | AUPRC=0.49871 | F1=0.58007
+Epoch 06 | Loss=0.89343 | AUROC=0.76036 | AUPRC=0.50030 | F1=0.59439
+Epoch 07 | Loss=0.89375 | AUROC=0.75968 | AUPRC=0.47802 | F1=0.59439
+Epoch 08 | Loss=0.89328 | AUROC=0.76248 | AUPRC=0.49810 | F1=0.58987
+Epoch 09 | Loss=0.89294 | AUROC=0.76175 | AUPRC=0.49970 | F1=0.59439
+Early stopping.
+FINAL: {'task': 'LUAD driver prediction', 'model': 'MVF', 'feature_set': 'signature', 'AUROC': 0.762618498457993, 'AUPRC': 0.5007556140407037, 'F1': 0.5881410256410257}
+
+================================================================================
+Training MVF | LUAD driver prediction | functional+signature
+Input shape: (200432, 229)
+View dimensions: [143, 86]
+pos_weight: 5.424335956573486
+================================================================================
+Epoch 01 | Loss=0.69541 | AUROC=0.91325 | AUPRC=0.80871 | F1=0.69112
+Epoch 02 | Loss=0.58494 | AUROC=0.92873 | AUPRC=0.84000 | F1=0.63336
+Epoch 03 | Loss=0.55136 | AUROC=0.93434 | AUPRC=0.85333 | F1=0.70330
+Epoch 04 | Loss=0.52639 | AUROC=0.94060 | AUPRC=0.86273 | F1=0.74886
+Epoch 05 | Loss=0.51228 | AUROC=0.94453 | AUPRC=0.87269 | F1=0.74807
+Epoch 06 | Loss=0.49506 | AUROC=0.94316 | AUPRC=0.86844 | F1=0.77308
+Epoch 07 | Loss=0.48713 | AUROC=0.94150 | AUPRC=0.86573 | F1=0.60725
+Epoch 08 | Loss=0.47464 | AUROC=0.95096 | AUPRC=0.88510 | F1=0.77917
+Epoch 09 | Loss=0.46268 | AUROC=0.95331 | AUPRC=0.88913 | F1=0.74431
+Epoch 10 | Loss=0.45127 | AUROC=0.95405 | AUPRC=0.89004 | F1=0.74333
+Epoch 11 | Loss=0.44143 | AUROC=0.95219 | AUPRC=0.88690 | F1=0.76645
+Epoch 12 | Loss=0.43341 | AUROC=0.95723 | AUPRC=0.89627 | F1=0.74191
+Epoch 13 | Loss=0.42924 | AUROC=0.95734 | AUPRC=0.89838 | F1=0.76436
+Epoch 14 | Loss=0.42000 | AUROC=0.95838 | AUPRC=0.90035 | F1=0.76945
+Epoch 15 | Loss=0.41322 | AUROC=0.95500 | AUPRC=0.89457 | F1=0.78758
+Epoch 16 | Loss=0.40882 | AUROC=0.96143 | AUPRC=0.90618 | F1=0.79641
+Epoch 17 | Loss=0.40203 | AUROC=0.96103 | AUPRC=0.90636 | F1=0.74456
+Epoch 18 | Loss=0.39336 | AUROC=0.96378 | AUPRC=0.91100 | F1=0.80148
+Epoch 19 | Loss=0.38923 | AUROC=0.96338 | AUPRC=0.91061 | F1=0.73872
+Epoch 20 | Loss=0.38426 | AUROC=0.96369 | AUPRC=0.91001 | F1=0.81126
+Epoch 21 | Loss=0.37744 | AUROC=0.96220 | AUPRC=0.90877 | F1=0.77000
+Epoch 22 | Loss=0.37506 | AUROC=0.96652 | AUPRC=0.91732 | F1=0.77843
+Epoch 23 | Loss=0.37113 | AUROC=0.96621 | AUPRC=0.91788 | F1=0.77038
+Epoch 24 | Loss=0.37069 | AUROC=0.96430 | AUPRC=0.91267 | F1=0.80114
+Epoch 25 | Loss=0.36235 | AUROC=0.96754 | AUPRC=0.92015 | F1=0.83398
+Epoch 26 | Loss=0.35725 | AUROC=0.96852 | AUPRC=0.92247 | F1=0.80371
+Epoch 27 | Loss=0.35481 | AUROC=0.96773 | AUPRC=0.92053 | F1=0.78969
+Epoch 28 | Loss=0.34948 | AUROC=0.96671 | AUPRC=0.91868 | F1=0.79808
+Epoch 29 | Loss=0.34759 | AUROC=0.96742 | AUPRC=0.92011 | F1=0.79041
+Epoch 30 | Loss=0.34391 | AUROC=0.96858 | AUPRC=0.92115 | F1=0.79576
+FINAL: {'task': 'LUAD driver prediction', 'model': 'MVF', 'feature_set': 'functional+signature', 'AUROC': 0.9685187818221211, 'AUPRC': 0.9224700501302008, 'F1': 0.8037148964398909}
+
+Loading SeqQC dataset...
+
+================================================================================
+Training QC-MLP | SeqQC confidence prediction | QC
+Input shape: (89447, 35)
+View dimensions: [35]
+pos_weight: 1.267547607421875
+================================================================================
+Epoch 01 | Loss=0.76612 | AUROC=0.60632 | AUPRC=0.59774 | F1=0.59804
+Epoch 02 | Loss=0.71782 | AUROC=0.63497 | AUPRC=0.62334 | F1=0.35985
+Epoch 03 | Loss=0.70162 | AUROC=0.63201 | AUPRC=0.62061 | F1=0.39537
+Epoch 04 | Loss=0.69828 | AUROC=0.63477 | AUPRC=0.62389 | F1=0.33590
+Epoch 05 | Loss=0.69650 | AUROC=0.63196 | AUPRC=0.62159 | F1=0.61423
+Epoch 06 | Loss=0.69601 | AUROC=0.63438 | AUPRC=0.62360 | F1=0.42639
+Epoch 07 | Loss=0.69558 | AUROC=0.63290 | AUPRC=0.62194 | F1=0.33022
+Epoch 08 | Loss=0.69558 | AUROC=0.63455 | AUPRC=0.62368 | F1=0.60281
+Epoch 09 | Loss=0.69535 | AUROC=0.63392 | AUPRC=0.62230 | F1=0.51155
+Early stopping.
+FINAL: {'task': 'SeqQC confidence prediction', 'model': 'QC-MLP', 'feature_set': 'QC', 'AUROC': 0.6347740811153358, 'AUPRC': 0.623887740797475, 'F1': 0.3358971862525557}
+
+Saved:
+/mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/bibm2026_project/logs/MVF_ablation_metrics.csv
+/mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/bibm2026_project/logs/MVF_ablation_metrics_rounded.csv
+                          task   model  ...   AUPRC      F1
+0       LUAD driver prediction     MVF  ...  0.9294  0.8145
+1       LUAD driver prediction     MVF  ...  0.5008  0.5881
+2       LUAD driver prediction     MVF  ...  0.9225  0.8037
+3  SeqQC confidence prediction  QC-MLP  ...  0.6239  0.3359
+
+[4 rows x 6 columns]

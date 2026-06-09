@@ -1,0 +1,11 @@
+
+=== Training RandomForest on QC features ===
+RandomForest done: AUROC=0.6092, AUPRC=0.6054, F1=0.5094
+
+=== Training LightGBM on QC features ===
+LightGBM done: AUROC=0.6262, AUPRC=0.6177, F1=0.5003
+
+=== Training XGBoost on QC features ===
+XGBoost done: AUROC=0.6289, AUPRC=0.6181, F1=0.4951
+
+QC models trained. Metrics saved to QC_model_metrics.csv

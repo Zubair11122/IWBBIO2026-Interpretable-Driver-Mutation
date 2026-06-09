@@ -1,0 +1,5 @@
+task,model,feature_set,AUROC,AUPRC,F1
+LUAD driver prediction,MVF,functional,0.9725,0.9294,0.8145
+LUAD driver prediction,MVF,signature,0.7626,0.5008,0.5881
+LUAD driver prediction,MVF,functional+signature,0.9685,0.9225,0.8037
+SeqQC confidence prediction,QC-MLP,QC,0.6348,0.6239,0.3359

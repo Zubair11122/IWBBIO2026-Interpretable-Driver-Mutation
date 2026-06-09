@@ -1,0 +1,38 @@
+Reading: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/dataset/ResMLP-GL/Dataset/mutations_with_clinical_combined.tsv
+Raw shape: (1232949, 110)
+Columns: ['sample', 'Hugo_Symbol', 'Chromosome', 'Start_Position', 'end', 'Reference_Allele', 'Tumor_Seq_Allele2', 'Tumor_Sample_Barcode', 'Amino_Acid_Change', 'Variant_Classification', 'callers', 'AF', 'Cancer_Type', 'Is_Driver', 'Mutation', 'Context', 'Mutation_Type', 'Type', 'SBS1', 'SBS2', 'SBS3', 'SBS4', 'SBS5', 'SBS6', 'SBS7a', 'SBS7b', 'SBS7c', 'SBS7d', 'SBS8', 'SBS9', 'SBS10a', 'SBS10b', 'SBS10c', 'SBS10d', 'SBS11', 'SBS12', 'SBS13', 'SBS14', 'SBS15', 'SBS16', 'SBS17a', 'SBS17b', 'SBS18', 'SBS19', 'SBS20', 'SBS21', 'SBS22a', 'SBS22b', 'SBS23', 'SBS24', 'SBS25', 'SBS26', 'SBS27', 'SBS28', 'SBS29', 'SBS30', 'SBS31', 'SBS32', 'SBS33', 'SBS34', 'SBS35', 'SBS36', 'SBS37', 'SBS38', 'SBS39', 'SBS40a', 'SBS40b', 'SBS40c', 'SBS41', 'SBS42', 'SBS43', 'SBS44', 'SBS45', 'SBS46', 'SBS47', 'SBS48', 'SBS49', 'SBS50', 'SBS51', 'SBS52', 'SBS53', 'SBS54', 'SBS55', 'SBS56', 'SBS57', 'SBS58', 'SBS59', 'SBS60', 'SBS84', 'SBS85', 'SBS86', 'SBS87', 'SBS88', 'SBS89', 'SBS90', 'SBS91', 'SBS92', 'SBS93', 'SBS94', 'SBS95', 'SBS96', 'SBS97', 'SBS98', 'SBS99', 'Dominant_Signature', 'DP', 'Sample ID', 'case_id', 'Overall Survival (Months)', 'Overall Survival Status']
+Cancer column: Cancer_Type
+Cancer_Type
+COAD    935120
+GBM     297829
+Name: count, dtype: int64
+Label column: Is_Driver
+After label cleaning: (1232949, 111)
+Label counts:
+label
+0    1047204
+1     185745
+Name: count, dtype: int64
+Cancer counts after filtering:
+cancer_type_clean
+COAD    935120
+GBM     297829
+Name: count, dtype: int64
+Final shape: (1232949, 104)
+Feature count: 92
+Signature features: 86
+Numeric features: 4
+Clinical encoded features: 2
+Final cancer counts:
+cancer_type_clean
+COAD    935120
+GBM     297829
+Name: count, dtype: int64
+Final label counts:
+label
+0    1047204
+1     185745
+Name: count, dtype: int64
+Saved: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/bibm2026_project/data/coad_gbm_master_dataset.csv
+Saved: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/bibm2026_project/data/coad_gbm_feature_groups.json
+Saved: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/bibm2026_project/data/coad_gbm_dataset_summary.txt

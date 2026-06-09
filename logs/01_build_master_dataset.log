@@ -1,0 +1,20 @@
+Reading: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/dataset/IDEA-LUAD/dataset/mutations_variant_complete.tsv
+Raw shape: (200432, 279)
+Shape after duplicate-column removal: (200432, 279)
+Label counts:
+label
+0    169233
+1     31199
+Name: count, dtype: int64
+Final shape: (200432, 240)
+Final label counts:
+label
+0    169233
+1     31199
+Name: count, dtype: int64
+Signature features: 86
+Functional features: 143
+Total model features: 229
+Saved: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/bibm2026_project/data/master_mutation_dataset.csv
+Saved: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/bibm2026_project/data/feature_groups.json
+Saved: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/bibm2026_project/data/master_dataset_summary.txt
