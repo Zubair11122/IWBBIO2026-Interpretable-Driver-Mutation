@@ -1,0 +1,120 @@
+COAD/GBM DATASET SUMMARY
+========================
+Input file: /mnt/820f42a7-6768-4c07-a318-b6345e4826df/zubei/rep_error_project/DAAI-Platform/dataset/ResMLP-GL/Dataset/mutations_with_clinical_combined.tsv
+Final shape: (1232949, 104)
+
+Cancer counts:
+cancer_type_clean
+COAD    935120
+GBM     297829
+Name: count, dtype: int64
+
+Label counts:
+label
+0    1047204
+1     185745
+Name: count, dtype: int64
+
+Total features: 92
+Signature features: 86
+Numeric features: 4
+Clinical encoded features: 2
+
+
+Signature features:
+SBS1
+SBS2
+SBS3
+SBS4
+SBS5
+SBS6
+SBS7a
+SBS7b
+SBS7c
+SBS7d
+SBS8
+SBS9
+SBS10a
+SBS10b
+SBS10c
+SBS10d
+SBS11
+SBS12
+SBS13
+SBS14
+SBS15
+SBS16
+SBS17a
+SBS17b
+SBS18
+SBS19
+SBS20
+SBS21
+SBS22a
+SBS22b
+SBS23
+SBS24
+SBS25
+SBS26
+SBS27
+SBS28
+SBS29
+SBS30
+SBS31
+SBS32
+SBS33
+SBS34
+SBS35
+SBS36
+SBS37
+SBS38
+SBS39
+SBS40a
+SBS40b
+SBS40c
+SBS41
+SBS42
+SBS43
+SBS44
+SBS45
+SBS46
+SBS47
+SBS48
+SBS49
+SBS50
+SBS51
+SBS52
+SBS53
+SBS54
+SBS55
+SBS56
+SBS57
+SBS58
+SBS59
+SBS60
+SBS84
+SBS85
+SBS86
+SBS87
+SBS88
+SBS89
+SBS90
+SBS91
+SBS92
+SBS93
+SBS94
+SBS95
+SBS96
+SBS97
+SBS98
+SBS99
+
+Numeric features:
+AF
+DP
+Overall Survival (Months)
+Overall Survival Status
+
+Clinical encoded features:
+Overall Survival Status_0
+Overall Survival Status_1
